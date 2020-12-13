@@ -1,4 +1,24 @@
-## Welcome to GitHub Pages
+# Forecasting stock volatility
+
+Who has never wondered how one could predict the stock market? Especially since this Covid-19 crisis, more and more people have started trading on the stock market.
+Stock volatility is influenced by how much people trade, thus it depends on people behaviour. And guess what could be a good insight on what people think? Their google researchs! But we still have to find out which search terms these people type when trading a particular stock.
+
+
+## Goal
+During the 2020 Covid-19 pandemic, we try to explain the XX volatility using the query volume of related search terms. Terms such as XYZ.
+
+
+## Key insights
+
+
+
+
+
+
+
+
+
+## To remove only at the end
 
 You can use the [editor on GitHub](https://github.com/Laragervaise/forecasting-stock-volatility/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
