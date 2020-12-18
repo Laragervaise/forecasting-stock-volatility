@@ -229,6 +229,10 @@ th {
   img {
     max-width: 100% !important;
   }
+  img.resize {
+    max-width:50%;
+    max-height:50%;
+  }
   p,
   h2,
   h3 {
