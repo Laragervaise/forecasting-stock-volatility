@@ -2,8 +2,21 @@
     <section id="model">
       <div class="container text-center">
           <div class="call-to-action">
-              <h2>Model</h2>
-              <a href="#" class="btn btn-default btn-xl wow tada">!</a>
+              <h2>What models perform the best when it comes to forecasting stock volatility?</h2>
+            
+              <p>Volatility doesn't seem to depends on "old" data, you just need the 1-2 day before!</p>
+            
+              <img src="img/autocorrelation.png alt="autocorrelation plot"> 
+                                                                          
+              <p> Thus, it seems to be a good choice to forecast the daily volatility <b>only using the previous day<\b> data.
+                                                                          
+              In quantitative finance, we assume that stocks follow some modified version of a Brownian Process (ref). This means that ...
+              To estimate these movements, <b>GARCH models<\b> which (works as follow...) are the best suited (ref).                                                               
+               
+            
+              The performance of this GARCH model is already quite good! But let's see if we can further improve it using Google Trends.</p>    
+                                                                          
+              <img src="img/baseline.png alt="baseline plot">
           </div>
       </div>
      </section>
