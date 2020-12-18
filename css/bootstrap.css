@@ -6565,7 +6565,7 @@ button.close {
 }
 
 .resize_fit_center {
-  max-width:100%;
+  max-width:50%;
   max-height:100%;
   vertical-align: middle;
 }
