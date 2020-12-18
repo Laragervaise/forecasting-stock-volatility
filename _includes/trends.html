@@ -10,17 +10,25 @@
                 the <b>context </b> is more important. <br>
                 Here in context of crisis, people will search for words such as 
                 'debt','loan','job','unemployment','economics','inflation','sell','bonds','gold',
-                'stocks','dow jones', 'crisis','finance','risk', or'leverage'. (ref)
-            
-                As we want to make the model simple and the forecasting fast, we only keep the most relevant ones. We did proceed in the following way
-                to select the keywords: First, we kept only the keyword that had a spike just before or during the crisis. 
-                Then, from this list, we kept only the significant ones after fitting the trends model. 
-            
+                'stocks','dow jones', 'crisis','finance','risk', or'leverage'. [?](ref)
+                
+                queries means <img src="" alt=""> (all keywords)
+
+                
+                <br>As we want to make the model simple and the forecasting fast, we only keep the most relevant ones. We did proceed in the following way
+                to select the keywords: First, we kept only the keyword that had a spike just before or during the crisis. <br>
+
+                <img src="" alt=""> volumequeries
+                
                 We remove the seasonality from the Google Trends data before using it. We also plot the trends of these time series 
                 and the DJI price at the same scale to see clear spikes in volatility right after an increase in the queries volume for the selected keywords. <br>
+                Then, from this list, we kept only the significant ones after fitting the trends model.  <br>
+                
+                <img src="img/trends+DJI.png" alt="trends plot">
+                
                 We are quite on the right track!</p>
             
-              <img src="img/trends+DJI.png" alt="trends plot">
+              
           </div>
       </div>
     </section>
