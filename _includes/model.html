@@ -30,6 +30,32 @@
             
               <p> Fitting the model to the data, we got the following results: </p>   
             
+              Zero Mean - GARCH Model Results                           
+              ====================================================================================
+              Dep. Variable:                          DJI   R-squared:                       0.000
+              Mean Model:                       Zero Mean   Adj. R-squared:                  0.012
+              Vol Model:                            GARCH   Log-Likelihood:                4.39503
+              Distribution:      Standardized Student's t   AIC:                         -0.790064
+              Method:                  Maximum Likelihood   BIC:                           8.83681
+                                                            No. Observations:                   82
+              Date:                      Fri, Dec 18 2020   Df Residuals:                       78
+              Time:                              17:23:39   Df Model:                            4
+                                             Volatility Model                              
+              =============================================================================
+                               coef    std err          t      P&gt;|t|       95.0% Conf. Int.
+              -----------------------------------------------------------------------------
+              omega      1.7646e-03  1.492e-03      1.182      0.237 [-1.160e-03,4.690e-03]
+              alpha[1]       0.3561  7.059e-02      5.044  4.553e-07      [  0.218,  0.494]
+              beta[1]        0.6439  7.236e-02      8.898  5.673e-19      [  0.502,  0.786]
+                                            Distribution                              
+              ========================================================================
+                               coef    std err          t      P&gt;|t|  95.0% Conf. Int.
+              ------------------------------------------------------------------------
+              nu             6.9856      3.506      1.992  4.632e-02 [  0.114, 13.857]
+              ========================================================================
+              
+              Covariance estimator: robust
+              
               ADD BASE MODEL SUMMARY TABLE <br>
             
               <br>
