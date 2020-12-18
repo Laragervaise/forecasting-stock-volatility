@@ -9,14 +9,14 @@
               However, after several tests, we got that no Auto-Regressive process is necessary for the mean model. For the volatility process, 
               the first lag is signficant. This means that the volatility of one day affects the next day. </p>
             
-              <img> src="img/autocorrelation.png alt="autocorrelation plot" </img> 
+              <img> src="img/autocorrelation.png" alt="autocorrelation plot" </img> 
               
               <p> This is all great but let's talk math now. The most efficient model we found is the GARCH(1,1) with zero mean and
               Student's t distributed errors. The formulas of the model are the following: </p>                                                             
             
               <p> Fitting the model to the data, we got the following results: </p>   
                                                                           
-              <img> src="img/basemodel.png" alt="baseline plot" </img>
+              <img src="img/basemodel.png" alt="baseline plot" >
 
       
               <p> The performance of this GARCH model is already quite good! But let's see if we can further improve it using Google Trends. </p> 
