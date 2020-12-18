@@ -2,17 +2,23 @@
     <section id="trends">
       <div class="container text-center">
           <div class="call-to-action">
-              <h2>When trading the DJI index, what do people search for on Google?</h2>
+              <h2>What do common shareholders search on Google when they are afraid of the future?</h2>
               
-              <p> When people are interested in a given stock, they will google its ticker and related industry or context. 
-                In the case of the DJI index whivh encompass several industries, the <b>context<\b> is more important.
+              <p> When people are interested in a given stock, they will google its ticker and related news but also search about the market in general. 
+                We can actually know if the market is bullish or bear by looking at this searches. 
+                In the case of the Dow Jones index which measures the stock performance of 30 large companies listed on stock exchanges in the United States,
+                the <b>context<\b> is more important. <br>
                 Here in context of crisis, people will search for words such as 
-                'debt','loan','job','unemployment','economics','inflation','sell','bonds','gold','stocks','dow jones', 'crisis','finance','risk', or'leverage'. (ref)
+                'debt','loan','job','unemployment','economics','inflation','sell','bonds','gold',
+                'stocks','dow jones', 'crisis','finance','risk', or'leverage'. (ref)
             
-                As we want to make the model fast and simple, let's keep only the most relevant ones.
-                That is, keywords people search a lot and which correlate with the stock volatility: <b>'unemployment','stocks','crisis', and 'dow jones'<\b>.
+                As we want to make the model simple and the forecasting fast, we only keep the most relevant ones. We did proceed in the following way
+                to select the keywords: First, we kept only the keyword that had a spike just before or during the crisis. 
+                Then, from this list, we kept only the significant ones after fitting the trends model. 
             
-                The spikes in volatility appear right after a lot of people searched for the selected keywords. We are quite on the right track!</p>
+                We remove the seasonality from the Google Trends data before using it. We also plot the trends of these time series 
+                and the DJI price at the same scale to see clear spikes in volatility right after an increase in the queries volume for the selected keywords. <br>
+                We are quite on the right track!</p>
             
               <img src="img/trends.png alt="trends plot">
           </div>
